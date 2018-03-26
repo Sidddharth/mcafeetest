@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Mcafee Activation</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="email.js"></script>
+</head>
+<body>
+    <header>
+        <div class="grid grid-pad">
+            <div class="mobile-col-1-3 col-1-3">
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="Mcafee logo">
+                </div>
+            </div>
+            <div class="mobile-col-2-3 col-2-3">
+                <nav id="navbar">
+                    <ul id="nav">
+                    <span class="close-buttn"></span>
+                      <li><a href="index.html">Home</a></li>  
+                      <li><a href="about.html" class="active">About</a></li>
+                      <li><a href="privacy.html">Privacy</a></li>
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <!-- end-of-header-->
+    
+        <!-- end of landing page -->
+
+    <section class="banner align-center">
+        <div class="grid grid-pad">
+            <div class="col-1-1">
+                <h2>About Us</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="grid grid-pad">
+            <div class="col-1-2">
+                <h2>mcafeecard.com is an independent website and online support provider on On-Demand Remote Technical Services For McAfee Retail Card products.</h2>
+                <p class="text">
+                    When it comes to technical support, it can be a frustrating experience for 
+                    many. The popular players in the industry are charging through the nose just 
+                    for a “diagnostic”. In other words, they are charging you high rates just to 
+                    look at your issue. Solving it, well, that’s another story altogether.
+                </p>
+                <p class="text">
+                    mcafeecard.com realized that what people really want is someone who they 
+                    can call to have their issue resolved for a reasonable price. No diagnostic 
+                    fees, labor fees, additional fees, or any other hidden fees. It’s just one 
+                    simple low flat rate . We also understand that technology can be challenging 
+                    at times and we want to assure our customers and potential customers that we 
+                    are here to listen to you. In fact, that is where the mcafeecard.com name 
+                    comes from; talk to us.
+                </p>
+                <p class="text">
+                    mcafeecard.com is an independent website and specially made for the computer 
+                    users who need help or suggestions to activate McAfee retail card in their 
+                    system.  This website is neither affiliated nor sponsored by McAfee.
+                </p>
+            </div>
+            <div class="col-1-2 align-center">
+                <h2>McaAFEE Antivirus</h2>
+                <img src="imgs/mcaproducts.png" alt="McAFEE Total Protection" width="600px">
+            </div>
+
+            <div class="col-1-1">
+                <h2>Source Missing?</h2>
+                <p class="text">
+                    We have been giving the source of the articles, software, wallpaper, 
+                    or themes, which we have taken from other sites/blogs. However if you 
+                    find your work here without the source or the back link (credit), 
+                    please let us know using the Contact form.
+                </p>
+                <h4>All product names, logos, copyrights, and trademarks mentioned are 
+                    acknowledged as the registered intellectual property of their respective owners.
+                </h4>
+                <p class="text">
+                    <b>Warning</b> : We are not responsible for <b>any system crash</b> or <b>data loss</b> that might
+                    have caused after following guides and trying software reviewed on 
+                    mcafeecard.com. It is always best to create a System Restore Point or system 
+                    image backup before trying anything new. While we may not have mentioned it, 
+                    where required, you may have to ‘Log In As Administrator’ or ‘Run As 
+                    Administrator’, to carry out or execute particular tasks.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="dark">
+        <div class="grid grid-pad">
+            <div class="col-1-1">
+                <span>Copyright © 2018 Mcafeecard. All rights reserved. | Powered by XYZ</span>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+    $('#navbar').prepend('<div id="menu-icon"><i class="fa fa-bars"></i></div>');
+         $("#menu-icon i").click(function(e) {
+                e.preventDefault();
+                // $("html").css({"overflow":"hidden"});
+                $("#menu-icon").css({"opacity":"0"});
+                $("body").toggleClass('expanded');
+        });
+
+        $(".close-buttn").click(function(e) {
+                e.preventDefault();
+                // $("html").css({"overflow":"visible"});
+                $("#menu-icon").css({"opacity":"1"});
+                $("body").removeClass('expanded');
+        });
+});
+
+</script>
+</body>
+</html>
